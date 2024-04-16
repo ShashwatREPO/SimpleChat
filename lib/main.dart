@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Color.fromRGBO(245, 243, 255, 1),
         colorScheme: ColorScheme.fromSwatch().copyWith(
           primary: Color.fromRGBO(121, 100, 235, 1),
+          background: Color.fromRGBO(218, 212, 255, 1),
         ),
         
       

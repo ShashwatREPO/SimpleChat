@@ -1,3 +1,4 @@
+import 'package:chatapp/Pages/Login.dart';
 import 'package:chatapp/Widget/AccentButton.dart';
 import 'package:chatapp/Widget/Logo.dart';
 import 'package:chatapp/Widget/TextNavigation.dart';
@@ -46,7 +47,7 @@ class OnBoardingPage extends StatelessWidget {
             child: AccentButton(
               text: "Login",
               onTap: () {
-                
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> Login()));
               },
             ),
           ),
@@ -59,7 +60,7 @@ class OnBoardingPage extends StatelessWidget {
             ),
           ),
           SizedBox(height: 20,),
-          TextNavigation(nonClickableText: "Don't have an account ?", onTap: (){}, ClickableText: "Sign in")
+          TextNavigation(nonClickableText: "Don't have an account?", onTap: (){}, ClickableText: "Register")
 
         ],
       )),
