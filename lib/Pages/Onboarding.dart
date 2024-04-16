@@ -1,5 +1,6 @@
 import 'package:chatapp/Widget/AccentButton.dart';
 import 'package:chatapp/Widget/Logo.dart';
+import 'package:chatapp/Widget/TextNavigation.dart';
 import 'package:chatapp/Widget/alternativeButton.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -57,6 +58,8 @@ class OnBoardingPage extends StatelessWidget {
               onTap: (){},
             ),
           ),
+          SizedBox(height: 20,),
+          TextNavigation(nonClickableText: "Don't have an account ?", onTap: (){}, ClickableText: "Sign in")
 
         ],
       )),
