@@ -1,6 +1,6 @@
-# chatapp
+# Simplechatapp
 
-A new Flutter project.
+
 
 ## Getting Started
 
