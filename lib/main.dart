@@ -1,7 +1,18 @@
 import 'package:chatapp/Pages/Onboarding.dart';
+import 'package:chatapp/Pages/PageTree.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:chatapp/firebase_options.dart';
 
-void main() {
+
+
+
+Future<void> main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.android
+    
+  );
   runApp(const MyApp());
 }
 
@@ -25,7 +36,7 @@ class MyApp extends StatelessWidget {
       
         useMaterial3: true,
       ),
-      home: const OnBoardingPage(),
+      home: PageTree(),
     );
   }
 }
