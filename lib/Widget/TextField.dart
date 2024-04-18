@@ -43,8 +43,7 @@ class _InputTextFieldState extends State<InputTextField> {
                 fillColor: Colors.white,
                 hintText: widget.hintText,
                 filled: true,
-                hintStyle: GoogleFonts.notoSans(
-                    fontSize: 16),
+                hintStyle: GoogleFonts.notoSans(fontSize: 16),
                 border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(6),
                     borderSide: BorderSide.none,
