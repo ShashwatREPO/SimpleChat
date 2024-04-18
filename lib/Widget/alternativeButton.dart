@@ -23,7 +23,7 @@ class AlternativeButton extends StatelessWidget {
             style: GoogleFonts.notoSans(
                 color: Theme.of(context).colorScheme.primary,
                 fontWeight: FontWeight.w500,
-                fontSize: 16
+                fontSize: 18
       
                 ),
           ),
